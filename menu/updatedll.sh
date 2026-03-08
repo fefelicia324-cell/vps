@@ -18,7 +18,7 @@ wget -O add-akun "https://raw.githubusercontent.com/fefelicia324-cell/vps/main/m
 wget -O updatedll "https://raw.githubusercontent.com/fefelicia324-cell/vps/main/menu/updatedll.sh"
 wget -O add-akun "https://raw.githubusercontent.com/fefelicia324-cell/vps/main/menu/add-akun.sh"
 wget -O delete-akun "https://raw.githubusercontent.com/fefelicia324-cell/vps/main/menu/delete-akun.sh"
-wget -O certv2ray "https://raw.githubusercontent.com/fisabiliyusri/Mantap/main/xray/certv2ray.sh"
+wget -O certv2ray "https://raw.githubusercontent.com/fefelicia324-cell/vps/main/certv2ray.sh"
 wget -O restart-xray "https://raw.githubusercontent.com/fefelicia324-cell/vps/main/menu/restart-xray.sh"
 wget -O xmenu "https://raw.githubusercontent.com/fefelicia324-cell/vps/main/menu/xmenu.sh"
 wget -O auto-pointing "https://raw.githubusercontent.com/fefelicia324-cell/vps/main/menu/auto-pointing.sh"
