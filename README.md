@@ -2,7 +2,7 @@
 <img src="https://readme-typing-svg.herokuapp.com?color=%2336BCF7&center=true&vCenter=true&lines=SCRIPT+XRAY+MANTAP" />
 </p>
 
-# XRAY MANTAP
+# Vps cianet
 - ***Script XRAY Multi Port 443/80 By SL***
 - ***SCRIPT UNTUK MEMBUAT SERVER VPN***
 
@@ -102,14 +102,14 @@ apt-get update && apt-get upgrade -y && update-grub && sleep 2 && reboot
 - contoh nama domain punya aku,silahkan ganti dengan punya kamu
 ```
 cat >/root/domain <<EOF
-mantapxsl.my.id
+cianet.ciawifi.web.id
 EOF
 ```
 - ganti mantapxsl.my.id menjadi nama domain punya kamu
 ```
 mkdir -p /etc/xray
 cat >/etc/xray/domain <<EOF
-mantapxsl.my.id
+cianet.ciawifi.web.id
 EOF
 ```
 
@@ -117,7 +117,7 @@ EOF
 - maka proses install akan berjalan, jangan keluar dari vps
 - jika keluar dari vps saat lagi proses install,maka akan gagal
 ```
-wget https://raw.githubusercontent.com/fisabiliyusri/XRAY-MANTAP/main/setup.sh && chmod +x setup.sh && ./setup.sh
+wget https://raw.githubusercontent.com/fefelicia324-cell/vps/main/setup.sh && chmod +x setup.sh && ./setup.sh
 ```
 6. jika sudah selesai,lalu ketik xmenu untuk menampilkan menu
 <p align="center">
@@ -160,11 +160,11 @@ nano /usr/bin/auto-pointing
 - contoh punya aku
 - tinggal ubah saja yg mantapxsl.my.id menjadi domain punya kamu
 ```
-DOMAIN=mantapxsl.my.id
-SUB_DOMAIN=onichan-${sub}.mantapxsl.my.id
-NS_DOMAIN=zerosl-${sub}.mantapxsl.my.id
-CF_ID=slinfinity69@gmail.com
-CF_KEY=dd2c5e0313f122b3c1833471d469b1025f492
+DOMAIN=ciawifi.web.id
+SUB_DOMAIN=onichan-${sub}cianet.ciawifi.web.id
+NS_DOMAIN=zerosl-${sub}cianet.ciawifi.web.id
+CF_ID=Fefelicia324@gmail.com
+CF_KEY=baeed547bf7828ca6f38f8ae356e8d8d08488
 ```
 - Lalu ubah juga CF_ID= isi dengan alamat email cloudflare kamu
 - CF_KEY= isi dengan YOUR API KEY (GLOBAL API KEY)
